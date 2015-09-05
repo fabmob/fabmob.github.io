@@ -139,11 +139,11 @@ module.controller("ImaginationProjectSheetCreateCtrl", ($scope, $state, $control
             $scope.saveVideos(projectsheetResult.id)
             # if no photos to upload, directly go to new project sheet
             if $scope.uploader.queue.length <= 0
-                $state.go("project.detail", {projectsheet_id: projectsheetResult.project.id, editMode: 'on'})
+                $state.go("project.detail", {projectsheet_id: projectsheetResult.id, editMode: 'on'})
             else
                 $scope.savePhotos(projectsheetResult.id, projectsheetResult.bucket.id)
                 $scope.uploader.onCompleteAll = () ->
-                    $state.go("project.detail", {projectsheet_id: projectsheetResult.project.id, editMode: 'on'})
+                    $state.go("project.detail", {projectsheet_id: projectsheetResult.id, editMode: 'on'})
 
             # add connected user as team member of project with detail "porteur"
             # FIXME :
