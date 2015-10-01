@@ -1,10 +1,10 @@
 <article class="leaflet-popup marker_card box" ng-show="!isLoading" ng-cloak>
-    <a ui-sref="project.detail({ slug: marker.data.slug })">
+    <a ui-sref="project.detail({ projectsheet_id: marker.data.id })">
         <img ng-if="!marker.data.cover" class="background" src="./img/workshop_small.jpg" width="248" height="184" alt="Image background" />
         <img ng-if="marker.data.cover" class="background" ng-src="{{ config.media_uri }}{{ marker.data.cover.thumbnail_url+'?width=248x184'}}" alt="Image background" />
     </a>
     <div class="description">
-        <h4><a ui-sref="project.detail({ slug: marker.data.slug })">{{ marker.data.title }}</a></h4>
+        <h4><a ui-sref="project.detail({ projectsheet_id: marker.data.id })">{{ marker.data.title }}</a></h4>
     </div>
-    <p class="baseline"><a ui-sref="project.detail({ slug: marker.data.slug })">{{ marker.data.baseline }}</a></p>
+    <p class="baseline"><a ui-sref="project.detail({ projectsheet_id: marker.data.id })">{{ marker.data.baseline }}</a></p>
 </article>

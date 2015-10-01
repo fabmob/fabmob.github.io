@@ -22,7 +22,7 @@ module.controller("ImaginationProjectsMapCtrl", ($scope, $compile, $anchorScroll
                             baseline: ps.project.baseline
                             description: ps.project.description
                             cover: ps.cover                                                                                                           
-                            id: ps.project.id
+                            id: ps.id
                             slug: ps.project.slug
                         }              
                     marker = 
