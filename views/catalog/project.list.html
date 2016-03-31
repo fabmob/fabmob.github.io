@@ -7,18 +7,47 @@
 
             <div class="row">
                 <div class="col-md-9">
+                  
                     <ng-include src="'views/catalog/block/list_counter.html'" style="position:absolute;left: 50%;"></ng-include>
 
-                    <tabset class="nav-tabs-listing">
-                        <tab heading="Aperçu">
+              
+                                <tabset class="nav-tabs-listing">
+                                     <tab heading="Liste">
+                                       <h4></h4>
+     <ul class="input-group tags tags-project sidebar-filters">
+          <strong>Filtrer par type : </strong><a href="/#/p/list?tag=logiciel">Logiciel</a><a href="/#/p/list?tag=Données">Données</a>
+            <a href="/#/p/list?tag=Connaissance">Connnaissance</a>
+            <a href="/#/p/list?tag=Éléctronique">Éléctronique</a>
+            <a href="/#/p/list?tag=Matériel">Matériel</a>
+    </ul>
+                                        <table class="table table-striped">
+                  <tr>
+                <th>Commun</th>
+                <th>Raison d'être</th>
+                <th></th>
+                <th></th>
+                  </tr>
+                  <!-- group members -->
+                  <tr ng-repeat="projectsheet in projectsheets" >
+                <td><a ui-sref="project.detail({ projectsheet_id: projectsheet.id })">{{projectsheet.project.title}}</a></td>
+                <td>{{projectsheet.project.baseline}}</td>
+                <td><a href="{{projectsheet.project.website}}">{{projectsheet.project.website}}</a></td>
+                <td></td>
+                  </tr>
+                </table>
+                                       
+                               
+
+                     </tab>
+                       <!-- <tab heading="Aperçu">
 
                             <div class="boxes boxes-small boxes-projects" >
                                 <div class="box" ng-repeat="projectsheet in projectsheets">
                                     <ng-include src="'views/catalog/block/project_thumb.html'" ng-init="project=projectsheet.project; cover=projectsheet.cover; projectsheet=projectsheet"></ng-include>
-                                </div><!-- .box -->;
-                            </div><!-- .boxes -->
+                                </div><!-- .box -->
+                          <!--  </div><!-- .boxes -->
 
-                        </tab>
+                       <!-- </tab> -->
                         <!-- <tab heading="Détaillés">
                             ... coming soon
                             <div class="boxes boxes-small boxes-projects" >
@@ -34,7 +63,7 @@
                         </tab>
                     </tabset>
                     <ng-include ng-show="projectsheets.length > 0" src="'views/catalog/block/list_counter.html'" style="position: relative;left: 41%;"></ng-include>
-                    <a ui-sref="project.new" class="large large-red" style="margin-top:10px">Créer un projet</a>
+                    <a ui-sref="project.new" class="large large-red" style="margin-top:10px">Ajouter un commun</a>
 
                 </div>
                 <div class="col-md-3">

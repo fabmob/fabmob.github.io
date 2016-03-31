@@ -4,7 +4,7 @@
 <link rel='stylesheet' href='css/textAngular.css'>
 
 <div class="sidebar-filters sidebar-projects" ng-controller="ImaginationFilterCtrl" ng-init="load(objectType)">
-    <h4>Filtrage Thématique</h4>
+    <h4><b>Filtrage par tag</b></h4>
     <div class="" style="width:100%; padding-bottom:10px;">
         <div class="" ng-controller="TagAutoCompleteCtrl">
             <tags-input ng-model="tags_filter"
@@ -16,14 +16,19 @@
             </tags-input>
         </div>
     </div><!-- /input-group -->
+    <h4><b>Tags les plus utilisés</b></h4>
     <ul class="tags tags-project">
         <li ng-repeat="tag in suggestedTags | tagFieldNotInArray:config.defaultSiteTags:'name' | tagFieldNotInArray:tags_filter_flat:'name' | limitTo:6">
             <a href="" ng-click="addToTagsFilter(tag)">{{tag.name}}</a>
         </li>
 
-    </ul>
-
-    <h4>Moteur de recherche</h4>
+  <h4><b>Filtrage par projet accompagné</b></h4>
+    <div class="input-group">
+        <ul class="tags tags-project">
+            <li><a href="/#/p/list?tag=welo">Welo</a></li>
+        </ul>
+    </div>
+   <!-- <h4>Moteur de recherche</h4>
     <div class="input-group">
         <form ng-submit="refreshFilter()">
             <input type="text" ng-model="query_filter" class="form-control" placeholder="Rechercher...">

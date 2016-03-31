@@ -4,7 +4,7 @@
     projectSheetTemplateSlug: 'unisson',
     defaultSiteTags: ['commun','fabmob'],  # comma-separated list of site tags
     editorialSuggestedTags : [], # list of tags suggested instead of most popular ones
-    defaultResultLimit : 18, # nb of results loaded by default in projects list page
+    defaultResultLimit : 40, # nb of results loaded by default in projects list page
 
 
     # Commons-dev patapouf server

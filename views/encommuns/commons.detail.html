@@ -145,7 +145,7 @@
 
     <div class="row container">
 
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div id="content">
 
                 <tabset class="nav-tabs-project">
@@ -182,9 +182,10 @@
                               <div ng-if="item.question.text == tips.ingredient">
                                  <b>{{ tips.baseline }}</b>
                                  <span ng-controller="CollapseCtrl">
-                                    <a href="" ng-click="isCollapsed = !isCollapsed"><span class="glyphicon glyphicon-info-sign" ></span><small>  (Aide pour comprendre la question)</small></a>
+                                    <a href="http://unisson.co/{{tips.ingredient}}"><span class="glyphicon glyphicon-info-sign" ></span><small>  Page d'aide et d'exemples pour répondre à la question</small></a>
                                     <div collapse="isCollapsed">
                                     <div class="well well-lg">
+
                                         <b>Description -> </b>{{ tips.description }}<br>
                                         <b>Intérêt -> </b>{{ tips.interest }}  <br>
                                         <b>Exemples -> </b>{{ tips.example }}  <br>
@@ -218,7 +219,7 @@
 
                 <!-- FIXME : images and videos -->
                 <!-- Angular UI Tabs -->
-                <tabset class="nav-tabs-slide nav-tabs-slide-project">
+               <!-- <tabset class="nav-tabs-slide nav-tabs-slide-project">
                     <tab ng-init="currentImg=0">
                         <tab-heading>
                             <span class="glyphicon glyphicon-picture"></span>
@@ -253,7 +254,7 @@
                         </tab-heading>
                     </tab>
                 </tabset>
-
+                -->
                 <!--  FIXME : linked projects ?? -->
                 <!-- <section class="linked linked-project" ng-init="linkResources=true" ng-show="linkResources && (linkedResources.length || editable)">
                     <ng-include src="'views/catalog/block/linked_resources.html'"></ng-include>
@@ -262,7 +263,7 @@
             </div><!-- #content -->
 
         </div><!-- .col-md-8 -->
-
+<!--
         <div id="sidebar" class="col-md-4">
             <section  class="test-chart" ng-controller="TestCtrl" >
                   <h3>Caractéristion du commun (en test, non représentatif)</h3> 
@@ -300,7 +301,7 @@
                 </li>
             </ul> -->
 
-            <a ui-sref="project.new" class="large large-red">Créer un commun</a>
+            <a ui-sref="project.new" class="large large-red">Ajouter un commun</a>
 
         </div>
 
