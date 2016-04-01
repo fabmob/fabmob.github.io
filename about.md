@@ -11,12 +11,13 @@ permalink: /about/
                     <tab heading=" A propos de ce site">
 </tab>
 </tabset>
-<p><iframe width="420" height="315" src="https://www.youtube.com/embed/ZeW7Ymc1lCg" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="800" src="https://www.youtube.com/embed/ZeW7Ymc1lCg" frameborder="0" allowfullscreen></iframe></p>
 <p><b>Un commun</b> est une ressource mise en partage et alimentée par une communauté qui met en place une gouvernance pour la gérer et la protéger. Les communs sont comme des organismes vivants : ni fixes, ni déterminés, ils évoluent progressivement avec leur environnement et leur contexte. Des personnes impliquées contribuent au commun et inventent les règles et normes pour le protéger. Peu de communs peuvent fonctionner de manière isolée. Ils sont presque tous des hybrides dépendant dans une certaine mesure à la fois de l’État et/ou du marché. (présentation ci dessous)</p>
 <p>Les communs doivent être pensés pour que leur usage ou consommation par une personne ne dégrade pas celui d’un autre utilisateur. Si l’enjeu est l’appropriation du commun par le plus grand nombre, pour par exemple en faire un standard ou favoriser sa diffusion, il est difficile d’envisager une exclusion d’usage pour un commun.</p>
 <br>
 <p><b>La Fabrique des mobilités</b>, étant constituée à la fois d’entités publiques et privées, pourrait être la structure qui anime, facilite le travail de communauté(s) agissant pour construire, améliorer, conserver les communs essentiels à cet écosystème. Concrètement la Fabrique aura un rôle pour déployer l’utilisation des communs comme OpenStreetMap (OSM), de capitaliser, de susciter l’émergence et l’utilisation des communs.</p>
 <br>
+<a href="http://wiki.lafabriquedesmobilites.fr/index.php?title=Construire_des_communs,_plateformes_ouvertes">En savoir plus sur le wiki de La Fabrique</a>
 <br>	
 
 
