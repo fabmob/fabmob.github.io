@@ -59,7 +59,7 @@
                                 <a editable-text="project.website"
                                     e-form="WebSiteBtnForm"
                                     onbeforesave="updateProjectSheet('Project', project.id , 'website', $data)"
-                                    ng-bind-html="project.website"
+                                    ng-bind-html="project.website"p
                                     ng-href="{{ project.website }}">
                                 </a>
                             </div>
@@ -154,7 +154,7 @@
                             <div class="edit-buttons" ng-click="DescBtnForm.$show()" ng-hide="DescBtnForm.$visible || !editable" ng-show="editable">
                                 <button> <span class="glyphicon glyphicon-pencil"></span></button>
                             </div>
-                            <h3>A propos du commun</h3>
+                            <h3>Raison d'être - Description</h3>
 
                             <p editable-text-angular="project.description"
                                  e-form="DescBtnForm"
