@@ -18,7 +18,8 @@ permalink: /about/
 <p><b>La Fabrique des mobilités</b>, étant constituée à la fois d’entités publiques et privées, pourrait être la structure qui anime, facilite le travail de communauté(s) agissant pour construire, améliorer, conserver les communs essentiels à cet écosystème. Concrètement la Fabrique aura un rôle pour déployer l’utilisation des communs comme OpenStreetMap (OSM), de capitaliser, de susciter l’émergence et l’utilisation des communs.</p>
 <br>
 <a href="http://wiki.lafabriquedesmobilites.fr/index.php?title=Construire_des_communs,_plateformes_ouvertes">En savoir plus sur le wiki de La Fabrique</a>
-<br>	
+<br>
+<br>
 
 
 <tabset class="nav-tabs-project">
