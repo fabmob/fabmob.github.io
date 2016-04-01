@@ -11,7 +11,7 @@ permalink: /about/
                     <tab heading=" A propos de ce site">
 </tab>
 </tabset>
-<p><iframe width="800" src="https://www.youtube.com/embed/ZeW7Ymc1lCg" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="640" height="480" src="https://www.youtube.com/embed/ZeW7Ymc1lCg" frameborder="0" allowfullscreen></iframe></p>
 <p><b>Un commun</b> est une ressource mise en partage et alimentée par une communauté qui met en place une gouvernance pour la gérer et la protéger. Les communs sont comme des organismes vivants : ni fixes, ni déterminés, ils évoluent progressivement avec leur environnement et leur contexte. Des personnes impliquées contribuent au commun et inventent les règles et normes pour le protéger. Peu de communs peuvent fonctionner de manière isolée. Ils sont presque tous des hybrides dépendant dans une certaine mesure à la fois de l’État et/ou du marché. (présentation ci dessous)</p>
 <p>Les communs doivent être pensés pour que leur usage ou consommation par une personne ne dégrade pas celui d’un autre utilisateur. Si l’enjeu est l’appropriation du commun par le plus grand nombre, pour par exemple en faire un standard ou favoriser sa diffusion, il est difficile d’envisager une exclusion d’usage pour un commun.</p>
 <br>
