@@ -1,0 +1,78 @@
+<html>
+<head>
+
+<title>Visualisation des ressources de la fabrique des mobilités</title>
+  <link rel="stylesheet" href="http://www.simile-widgets.org/styles/common.css" type="text/css" /> 
+ 
+<link rel="exhibit/data" 
+       type="application/jsonp"
+       href="http://spreadsheets.google.com/feeds/list/1uCtd0dAtLcbqp0Kifg4k_0WXMNn-cY_8wuRPU3SOjL8/od6/public/basic?alt=json-in-script"
+       ex:converter="googleSpreadsheets" /> 
+ 
+	<script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script> 
+	<script src="http://static.simile.mit.edu/exhibit/extensions-2.0/time/time-extension.js" type="text/javascript"></script> 
+	<script src="http://static.simile.mit.edu/exhibit/extensions-2.0/map/map-extension.js?gmapkey=ABQIAAAAKYwUwypRM_ZXYQ5_zyNE3xSo63t6lJe6SlX3GHCBzjd4Vk7sphSNZf3C2I9ga8jsUbI11rcpR0obyQ" type="text/javascript"></script> 
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,400italic|Source+Code+Pro:400' rel='stylesheet' type='text/css'>
+ 
+</head>
+<body>
+<h1>Ressources</h1>
+<!-- <h2></h2> -->
+
+<table width="100%" class="table table-striped ng-scope"> 
+        <tr valign="top"> 
+ 
+	          <td ex:role="viewPanel"> 
+	          
+<div ex:role="view" ex:viewClass="Tabular"
+  ex:columns=".from, .to, .richesse, .intitule, .complements, .statut" > 
+	<table style="display: none;"> 
+		<tr> 
+			<td><span ex:content=".from"></span></td> 
+			<td><span ex:content=".to"></span></td> 
+			<td><span ex:content=".richesse"></span></td> 
+			<td><span ex:content=".intitule"></span></td> 
+			<td><span ex:content=".complements"></span></td> 
+			<td><span ex:content=".statut"></span></td> 
+		</tr> 
+	</table> 
+</div> 
+
+<div ex:role="view"> 
+	<table ex:role="lens" class="show"> 
+	   <tr> 
+		   <td>	<div ex:content=".from"></div></td> 
+		   <td>
+			<div ex:content=".to"></div> 
+			<div ex:content=".richesse"></div> 
+			<div ex:content=".intitule"></div> 
+			<div ex:content=".complements"></div> 
+			<div ex:content=".statut"></div> 
+			   
+ 
+		   </td> 
+	   </tr> 
+   </table> 
+</div> 
+ 
+ 
+	   </td> 
+			
+ 
+ 
+            <td width="25%"> 
+			   <h2>Search as you type:</h2> 
+               <div ex:role="facet" ex:facetClass="TextSearch"></div> 
+<br /><br /><br /> 
+			  <h2>Filter by:</h2> 
+               <div ex:role="facet" ex:expression=".from" ex:facetLabel="From"></div> 
+               <div ex:role="facet" ex:expression=".to" ex:facetLabel="To"></div> 
+               <div ex:role="facet" ex:expression=".statut" ex:facetLabel="Statut"></div> 
+               <div ex:role="facet" ex:expression=".richesse" ex:facetLabel="Richesse"></div> 
+ 
+            </td> 
+        </tr> 
+    </table> 
+</body>
+</html> 
