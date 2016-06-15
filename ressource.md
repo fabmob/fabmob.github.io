@@ -1,5 +1,3 @@
-<html>
-<head>
 
 <title>Visualisation des ressources de la fabrique des mobilités</title>
   <link rel="stylesheet" href="http://www.simile-widgets.org/styles/common.css" type="text/css" /> 
@@ -74,5 +72,4 @@
             </td> 
         </tr> 
     </table> 
-</body>
-</html> 
+
